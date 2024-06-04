@@ -1,0 +1,244 @@
+* {
+    margin: 0px;
+    font-family: Arial;
+
+}
+
+.navbar {
+    height: 5rem;
+    width: 100%;
+    background-color: #67595E;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+
+}
+
+.musiclogo {
+    font-size: 2rem;
+
+}
+.musiclogo:hover {
+    font-size: 2.5rem;
+}
+.anchors a {
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+
+}
+a:hover {
+    color: blue;
+}
+.Contect {
+    position: absolute;
+    right: 1rem;
+}
+.login {
+    margin-left: 2.5rem;
+
+}
+.login a {
+    color: white;
+    text-decoration: none;
+
+}
+.login :hover {
+    color: blue;
+}
+
+/* Introsection */
+
+.introsection {
+    height:15rem ;
+    margin-top: 5rem;
+    padding-top: 1rem;
+    background-color:#E8B4B8 ;
+    display: flex;
+}
+
+.musiclibrary {
+    height: 21rem;
+    width: 50%;
+
+}
+.musiclibrary a {
+    text-decoration: none;
+    padding-top: 50rem;
+    color: black;
+    padding-right: 1rem;
+}
+.musiclibrary a:hover {
+    color: blue;
+}
+  .music-image {
+    height: 13rem;
+    width: 100%;
+    margin: 1rem 1rem 1rem 1rem;
+    background-image: url("Music-image.svg");
+    background-size:contain;
+    border: 2px solid black;
+    animation: simpleanimetion 1s ease-in 0s infinite normal;
+  }
+
+  @keyframes simpleanimetion {
+    from {border: 2px solid black;}
+    to{ border: 2px solid white;}
+  }
+  .featuredplaylist {
+    height: 20rem;
+    background-color:#A49393;
+    
+  }
+  .subbox {
+    height: 3rem;
+    margin-top: 1rem;
+    border-bottom: 1px solid black;
+    text-align: center;
+  }
+  .box {
+    height: 15rem;
+    width: 22%;
+    margin-top: 0.5rem;
+    padding: 1rem 1rem 1rem 1rem;
+   
+  }
+  .box-img {
+    height: 12rem;
+    background-size: cover;
+  } 
+  .boxes {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .recommended {
+    height: 2rem;
+    background-color: #EED6D3;
+
+  }
+
+  .searchbar {
+    height: 2rem;
+    background-color: #EED6D3;
+    display: flex;
+    justify-content: center;
+  }
+  .search-bar {
+    border-top-left-radius:0.5rem;
+    border-bottom-left-radius: 0.5rem;
+  }
+  .search-bar:hover {
+    background-color:orange ;
+  }
+  .search-icon {
+    font-size: 1.5rem;
+    height: 2rem;
+    width: 2rem;
+    background-color:orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+  }
+
+  /* album */
+
+  .albumboxes {
+    height: 20rem;
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+
+  }
+  
+.box:hover {
+    border: 2px solid black;
+}
+  
+/* review */
+.reviews {
+    height: 20rem;
+    background-color: #A49393;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.form {
+    height: 18rem;
+    background-color: #ECF87F;
+}
+ 
+button {
+    background-color: #3D550C;
+}
+
+/* Footer */
+
+
+.footer1 {
+  height: 3rem;
+  background-color:#5885AF ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.facebook {
+  margin-right: 5rem;
+
+}
+.instgram {
+  
+  margin-right: 5rem;
+}
+
+.facebook:hover  {
+  font-size: large;
+}
+.instgram:hover {
+  font-size: large;
+}
+.linkdin:hover {
+  font-size: large;
+}
+
+.footer2 {
+  height: 2rem;
+  background-color: #41729F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer2 a {
+  color: black;
+  text-decoration: none;
+  margin-right: 2rem;
+}
+.terms:hover {
+  color: orange;
+}
+.policy:hover {
+  color: orange;
+}
+
+ .footer3 {
+  height: 2rem;
+  background-color: #274472;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ 
+ .last {
+  text-decoration: none;
+  color: #FFFFFF;
+
+ }
+
+ .last:hover {
+  color: orange;
+ }
